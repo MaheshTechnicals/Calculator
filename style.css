@@ -22,9 +22,14 @@ button{
 } 
 
 input{
-  width: 97%;
+  width: 95%;
   height: 90px;
   background: #34495e;
+  font-size: 30px;
+  color: white;
+  text-align: right;
+  padding-right: 10px;
+
 } 
 
 
