@@ -17,13 +17,14 @@ button{
   color: white;
   cursor: pointer;
   height: 70px;
-  font-size: 20px;
+  font-size: 25px;
+  align-items: center ;
 } 
 
 input{
   width: 97%;
   height: 90px;
-  background: lightblue;
+  background: #34495e;
 } 
 
 
