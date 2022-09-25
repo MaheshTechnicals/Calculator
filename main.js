@@ -3,6 +3,7 @@
 function getNum(num) {
   const input = document.querySelector("input")
   input.value += num
+  input.style.color="white"
 }
 
 
@@ -11,7 +12,18 @@ function getNum(num) {
 
 function result() {
   const input = document.querySelector("input")
-  input.value = eval(input.value)
+
+
+  if (input.value == "") {
+
+  }
+
+  else {
+    input.value = eval(input.value)
+    input.style.color="#fed330"
+  }
+
+
 }
 
 // Clear Button.
