@@ -3,9 +3,10 @@
 
 
 .box {
-  border: 2px solid gray;
+  border: 2px solid black;
   width: 300px;
-  background: #a55eea;
+ background: rgb(131, 58, 180);
+ background: linear-gradient(90deg, rgba(131, 58, 180, 1) 0%, rgba(253, 29, 29, 1) 50%, rgba(252, 176, 69, 1) 100%);
 }
 
 table {
@@ -40,10 +41,12 @@ input {
 }
 
 button:hover {
-  background: #45aaf2;
+  background: rgb(238, 174, 202);
+  background: radial-gradient(circle, rgba(238, 174, 202, 1) 0%, rgba(148, 187, 233, 1) 100%);
   border-radius: 15px;
-  border: 1px solid white;
-  
+  border: 1px solid black;
+  color: black;
+
 
 }
 
@@ -57,9 +60,34 @@ body {
 
 
 .clear {
-  background: red;
+  background: yellow;
+  color: gray;
 }
 
 .eq {
   background: green;
+}
+
+
+
+.title {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  max-height: 100%;
+  max-width: 100%;
+  margin: 10px 0;
+}
+
+
+img {
+  width: 54px;
+  height: 54px;
+  border-radius: 50%;
+}
+
+h2 {
+  color: white;
+  font-size: 20px;
+  margin-left: 10px;
 }
