@@ -27,7 +27,7 @@ button {
 input {
   width: 95%;
   height: 90px;
-  background: black;
+  background: radial-gradient(circle at -8.9% 51.2%, rgb(255, 124, 0) 0%, rgb(255, 124, 0) 15.9%, rgb(255, 163, 77) 15.9%, rgb(255, 163, 77) 24.4%, rgb(19, 30, 37) 24.5%, rgb(19, 30, 37) 66%);
   font-size: 30px;
   color: white;
   text-align: right;
@@ -36,7 +36,6 @@ input {
   border: none;
 
 }
-
 button:hover {
   background: rgb(238, 174, 202);
   background: radial-gradient(circle, rgba(238, 174, 202, 1) 0%, rgba(148, 187, 233, 1) 100%);
