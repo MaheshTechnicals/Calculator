@@ -33,6 +33,7 @@ function result() {
 function remove() {
   const puted = document.querySelector("input")
   puted.value = null
+  play("sound/clear.wav")
 
 }
 
@@ -43,6 +44,7 @@ function backspace() {
   const puted = document.querySelector("input")
   let back = puted.value.slice(0, puted.value.length - 1)
   puted.value = back
+  play("sound/click.wav")
 }
 
 
