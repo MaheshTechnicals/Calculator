@@ -44,3 +44,12 @@ body {
   align-items: center;
   height: 100vh;
 }
+
+
+.clear{
+  background: red;
+}
+
+.eq{
+  background: green;
+}

@@ -18,7 +18,7 @@
         <input type="text">
       </tr>
       <tr>
-        <td colspan="2"><button onclick="remove()">C</button></td>
+        <td colspan="2"><button onclick="remove()" class="clear">C</button></td>
         <td><button onclick="backspace()"><i class='bx bx-message-alt-x'></i></button></td>
         <td><button onclick="getNum('/')">/</button></td>
 
@@ -46,11 +46,20 @@
       </tr>
 
       <tr>
-        <td><button onclick="getNum('0')">0</button></td>
-        <td><button onclick="getNum('.')">.</button></td>
-        <td><button onclick="result()">=</button></td>
+        <td><button onclick="getNum('(')">(</button></td>
+        <td><button onclick="getNum(')')">)</button></td>
+        <td><button onclick="getNum('√')">√</button></td>
         <td><button onclick="getNum('%')">%</button></td>
       </tr>
+
+      <tr>
+        <td><button onclick="getNum('0')">0</button></td>
+        <td><button onclick="getNum('.')">.</button></td>
+        <td colspan="2"><button onclick="result()" class="eq">=</button></td>
+
+      </tr>
+
+
 
     </table>
   </div>
