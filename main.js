@@ -30,3 +30,13 @@ function backspace() {
   let back = puted.value.slice(0, puted.value.length - 1)
   puted.value = back
 }
+
+
+// sqrt function √
+
+function sqrt() {
+  let put = document.querySelector("input")
+  let onlyNum = put.value.substr(0, put.value.length - 1)
+  let sqRoot = Math.sqrt(onlyNum)
+  put.value = sqRoot
+}
