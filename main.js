@@ -6,6 +6,7 @@ function getNum(num) {
 }
 
 
+
 // calculate Numbers.
 
 function result() {
@@ -15,8 +16,17 @@ function result() {
 
 // Clear Button.
 
-function remove(){
-  const puted =document.querySelector("input")
-  puted.value=null
-  
+function remove() {
+  const puted = document.querySelector("input")
+  puted.value = null
+
+}
+
+
+// Backspace button.
+
+function backspace() {
+  const puted = document.querySelector("input")
+  let back = puted.value.slice(0, puted.value.length - 1)
+  puted.value = back
 }
