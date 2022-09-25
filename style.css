@@ -1,3 +1,7 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Serif:opsz,wght@8..144,100&display=swap');
+
+
+
 .box{
  border: 2px solid gray;
  width: 300px;
@@ -29,7 +33,18 @@ input{
   color: white;
   text-align: right;
   padding-right: 10px;
+  font-weight: bold;
+  font-family: 'Roboto Serif', serif;
 
+} 
+
+
+body{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  font-family: 'Roboto Serif', serif;
 } 
 
 
