@@ -3,7 +3,8 @@
 function getNum(num) {
   const input = document.querySelector("input")
   input.value += num
-  input.style.color="white"
+  input.style.color = "white"
+  play("sound/click.wav")
 }
 
 
@@ -20,7 +21,8 @@ function result() {
 
   else {
     input.value = eval(input.value)
-    input.style.color="#fed330"
+    input.style.color = "#fed330"
+    play("sound/ans.wav")
   }
 
 
@@ -51,4 +53,12 @@ function sqrt() {
   let onlyNum = put.value.substr(0, put.value.length - 1)
   let sqRoot = Math.sqrt(onlyNum)
   put.value = sqRoot
+}
+
+
+// On click Sounds.
+
+function play(file) {
+  let audio = new Audio(file)
+  audio.play()
 }
