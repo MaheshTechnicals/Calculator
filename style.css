@@ -21,7 +21,7 @@ button {
   color: white;
   cursor: pointer;
   height: 70px;
-  font-size: 25px;
+  font-size: 30px;
   align-items: center;
 }
 
@@ -37,6 +37,11 @@ input {
 
 }
 
+button:hover {
+  background: #45aaf2;
+
+}
+
 
 body {
   display: flex;
@@ -46,10 +51,10 @@ body {
 }
 
 
-.clear{
+.clear {
   background: red;
 }
 
-.eq{
+.eq {
   background: green;
 }
